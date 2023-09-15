@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Contact</title>
+    <link rel="stylesheet" href="/Charlie/Portfolio/CSS/mdb.min.css">
+    <link rel="stylesheet" href="/Charlie/Portfolio/CSS/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- the navbar  -->
+    <header>
+        <div class="navbar">
+            <div class="logo navbar-brand"><i class="fa-brands fa-old-republic px-2 px-md-4"></i></div>
+            <ul class="navbar-nav d-flex flex-row">
+                <li class="nav-item px-2 px-md-4"><a href="/Charlie/Portfolio/portfolio.html" class="nav-link text-center"><i class="fa-solid fa-house"></i><p>Home</p></a></li>
+                <li class="nav-item px-2 px-md-4"><a href="/Charlie/Portfolio/projects.html" class="nav-link text-center"><i class="fa-solid fa-briefcase"></i><p>Projects</p></a></li>
+                <li class="nav-item px-2 px-md-4"><a href="/Charlie/Portfolio/contact.html" class="nav-link text-black text-center"><i class="fa-solid fa-network-wired"></i><p>Contact</p></a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- the form for information input  -->
+    <div class="cont text-center">
+        <form id="task-form" class="form card bg-dark bg-gradient text-light my-1 px-2 py-2 w-50">
+            <div class="card-title text-center"><h3>Contact Info</h3></div>
+            <div class="input px-5">
+                <div id="nm" class="name">
+                    <label for="name">Name</label>
+                    <br>
+                    <input type="text" id="name" placeholder="Name" class="form-ele text-center w-100 rounded-6">
+                </div>
+                <br>
+                <div id="eml" class="email">
+                    <label for="email">Email</label>
+                    <br>
+                    <input type="email" id="email" placeholder="Email" class="form-ele text-center w-100 rounded-6">
+                </div>
+                <br>
+                <div id="cntOpt" class="options">
+                    <label for="option">Contact options</label>
+                    <br>
+                    <select id="option" class="form-ele text-center w-100 rounded-5">
+                        <option value="0">None</option>
+                        <option value="HTML">HTML</option>
+                        <option value="CSS">CSS</option>
+                        <option value="JavaScript">JavaScript</option>
+                        <option value="Bootstrap">Bootstrap</option>
+                    </select>
+                </div>
+                <br>
+                <div id="name" class="name">
+                    <label for="message">Message</label>
+                    <br>
+                    <textarea name="message" id="message" rows="5" placeholder="Type Your Message Here" class=" text-center w-100 rounded-6"></textarea>
+                </div>
+                <br>
+                <!-- Button trigger modal -->
+                <div id="subBtn" class="text-center"><button id="addBtn" type="button" class="btn btn-outline-light btn-rounded"  data-mdb-target="#submitModal">SUBMIT</button>
+                    <!-- Modal -->
+                    <div class="modal fade text-dark" id="submitModal" tabindex="-1" aria-labelledby="submitModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="submitModalLabel">Success</h5>
+                                <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">Thanks for filling the form we will get back to you shortly</div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </form>
+    </div>
+    
+    <footer class="p-3 d-flex bg-dark justify-content-around text-light">
+        <div class="logo">
+        <div><i class="fa-brands fa-old-republic"><p>The Old Republic</p></i></div>
+        <hr class="text-light">
+            <ul>
+                <li>We Create,</li>
+                <li>We Forge,</li>
+                <li>We Construct.</li>
+            </ul>
+        </div>
+        <div class="siteNav">
+            <div class="footer-head">Links</div>
+            <hr class="text-light">
+            <ul>
+                <li><a href="/Charlie/Portfolio/portfolio.html" class="text-light">Home</a></li>
+                <li><a href="/Charlie/Portfolio/projects.html" class="text-light">Projects</a></li>
+                <li><a href="/Charlie/Portfolio/contact.html" class="text-light">Contact</a></li>
+            </ul>
+        </div>
+        <div class="socialLinks">
+            <div class="footer-head">Social</div>
+            <hr class="text-light">
+                <a href="" class="text-light"><i class="fa-brands fa-instagram"></i></a>
+                <a href="" class="text-light"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="" class="text-light"><i class="fa-brands fa-twitter"></i></a>
+                <a href="" class="text-light"><i class="fa-brands fa-pinterest"></i></a>
+        </div>
+    </footer>
+
+    <script src="/Charlie/Portfolio/JS/mdb.min.js"></script>
+    <script src="/Charlie/Portfolio/JS/contact.js"></script>
+</body>
+</html>
