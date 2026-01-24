@@ -20,6 +20,15 @@ body header {
 body header .logo {
   font-size: 2em;
 }
+form { 
+  poasition: center;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  width: 300px;
+  vertical-align: middle;
+}
 body form .btn {
   border: 2px solid white;
   font-weight: bold;
@@ -41,6 +50,9 @@ body form label {
 }
 body footer {
   width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
 }
 body footer .logo {
   font-weight: bold;
