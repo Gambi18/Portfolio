@@ -12,57 +12,68 @@
 
 <body class="">
     <!-- the navbar  -->
-    <header>
-        <div class="navbar">
-            <div class="logo navbar-brand">
-                <i class="fa-brands fa-old-republic px-2 px-md-4"></i>
-            </div>
-            <ul class="navbar-nav d-flex flex-row">
-                <li class="nav-item px-2 px-md-4">
-                    <a href="index.html" class="nav-link text-black text-center"><i class="fa-solid fa-house"></i>
-                        <p>Home</p>
-                    </a>
-                </li>
-                <li class="nav-item px-2 px-md-4">
-                    <a href="./pages/projects.html" class="nav-link text-center"><i class="fa-solid fa-briefcase"></i>
-                        <p>Projects</p>
-                    </a>
-                </li>
-                <li class="nav-item px-2 px-md-4">
-                    <a href="./pages/gallery.html" class="nav-link text-center"><i class="fa-solid fa-image"></i>
-                        <p>Gallery</p>
-                    </a>
-                </li>
-                <li class="nav-item px-2 px-md-4">
-                    <a href="./pages/contact.html" class="nav-link text-center"><i
-                            class="fa-solid fa-network-wired"></i>
-                        <p>Contact</p>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </header>
-
+    <!-- <img src="./images/spider-man-marvel-6000x4000-11025.jpg" alt="head" height="200" width="100%"> -->
+    <!-- <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9BQFpK6Ssm88Z3AuMPhjMi4iSkjakh4FwFg&s" alt="" width="100%"> -->
     <!-- the hero section with the carousel  -->
-    <div class="hero d-md-flex d-block bg-dark bg-gradient p-1 text-light">
-        <div class="heroPerson w-100 w-md-50 px-4">
-            <h1><i>Charles A. Tima's</i></h1>
-            <h4><i class="fa-brands fa-old-republic">The Old Republic</i></h4>
-            <br />
+    <div class="p-3">
+        <div class="heroPerson w-100 justify-content-center text-center px-4 py-2 bg-black bg-opacity-75 text-light rounded-5">
+            <h1><i class="fa-brands fa-old-republic">The Old Republic</i></h1>
+            <hr class="mb-5" />
             <h3 class="text-secondary text-opacity-25">We CREATE,</h3>
             <h3 class="text-secondary text-opacity-50">We FORGE,</h3>
             <h3 class="text-secondary text-opacity-100">We CONSTRUCT.</h3>
         </div>
-        <div id="carouselHero" class="carousel slide carousel-fade w-100 w-md-50 d-flex align-items-center"
+    </div>
+
+    <nav id="nav" class="navbar bg-light bg-gradient w-100 shadow-0">
+        <div class="logo navbar-brand">
+            <i class="fa-brands fa-old-republic px-2 px-md-4 d-block"></i>
+        </div>
+        <ul class="navbar-nav d-flex flex-row">
+            <li class="nav-item px-2 px-md-4">
+                <a href="index.html" class="nav-link text-black text-center"><i class="fa-solid fa-house"></i>
+                    <p>Home</p>
+                </a>
+            </li>
+            <li class="nav-item px-2 px-md-4">
+                <a href="./pages/projects.html" class="nav-link text-center"><i class="fa-solid fa-briefcase"></i>
+                    <p>Projects</p>
+                </a>
+            </li>
+            <li class="nav-item px-2 px-md-4">
+                <a href="./pages/gallery.html" class="nav-link text-center"><i class="fa-solid fa-image"></i>
+                    <p>Gallery</p>
+                </a>
+            </li>
+            <li class="nav-item px-2 px-md-4">
+                <a href="./pages/contact.html" class="nav-link text-center"><i class="fa-solid fa-network-wired"></i>
+                    <p>Contact</p>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="hero d-md-block d-block d-md-flex bg-light bg-gradient p-3 text-dark">
+        <div class="heroText w-100 w-md-50 d-flex flex-column justify-content-center text-md-end p-5 m-5">
+            <h2 class="mx-5 mb-4">Our Mission</h2>
+            <div class="mx-5 mb-4">
+                Our mission is to help you bring your ideas to life through
+                exceptional web development services. We are dedicated to
+                understanding your unique vision and transforming it into a
+                functional, visually appealing, and user-friendly website that
+                exceeds your expectations. With a focus on innovation, quality, and
+                customer satisfaction, we strive to be your trusted partner in the
+                digital world.
+            </div>
+        </div>
+        <div id="carouselHero" class="carousel slide carousel-fade w-100 w-md-50 d-flex align-items-center opacity-75"
             data-mdb-ride="carousel">
             <!-- Indicators -->
             <div class="carousel-indicators">
-                <button type="button" data-mdb-target="#carouselHero" data-mdb-slide-to="0"
-                    aria-label="Slide 1"></button>
+                <button type="button" data-mdb-target="#carouselHero" data-mdb-slide-to="0" aria-label="Slide 1"></button>
                 <button type="button" data-mdb-target="#carouselHero" data-mdb-slide-to="1" class="active"
                     aria-current="true" aria-label="Slide 2"></button>
-                <button type="button" data-mdb-target="#carouselHero" data-mdb-slide-to="2"
-                    aria-label="Slide 3"></button>
+                <button type="button" data-mdb-target="#carouselHero" data-mdb-slide-to="2" aria-label="Slide 3"></button>
             </div>
 
             <!-- Inner -->
@@ -111,6 +122,9 @@
         </div>
     </div>
 
+    <hr>
+
+
     <!-- the about me section  -->
     <div class="aboutMe d-md-flex d-block align-items-center bg-light bg-gradient text-dark p-3">
         <div class="aboutMeImg w-100 w-md-50 text-center">
@@ -136,7 +150,7 @@
                 Pencil Arts. I also play basketball, playing the role of a Shooting
                 Guard with the Mid-range Record of 63%, earning the Nickname
                 "Mid-range Meastro". I am also a music lover, and vocalist along the
-                pitch of Alto and Tenor.
+                pitches of Alto and Tenor.
             </div>
         </div>
     </div>
@@ -343,6 +357,24 @@
         </div>
     </footer>
 
+    <script>
+        const nav = document.querySelector('#nav');
+        const topOfNav = nav.offsetTop;
+
+        function fixNav() {
+            console.log(topOfNav, window.scrollY)
+            if (window.scrollY > topOfNav) {
+                document.body.style.paddingTop = nav.offsetHeight + 'px';
+                document.body.classList.add('fixed-nav');
+            } else {
+                document.body.style.paddingTop = 0;
+                document.body.classList.remove('fixed-nav');
+            }
+
+        }
+
+        window.addEventListener('scroll', fixNav);
+    </script>
     <script src="js/mdb.min.js"></script>
 </body>
 

@@ -28,7 +28,7 @@ body .hero .heroPerson h1 {
   font-weight: 400;
 }
 body .hero .heroPerson h3 {
-  font-size: 2em;
+  font-size: 1.5em;
   font-weight: bolder;
 }
 body .contactMe .arw {
@@ -36,6 +36,30 @@ body .contactMe .arw {
   color: gray;
   animation: updown 2s ease infinite;
 }
+
+.logo {
+  display: none;
+}
+
+.navbar {
+  justify-content: space-around;
+  border-bottom: 1px solid lightgray;
+}
+
+.fixed-nav nav {
+  position: fixed;
+  box-shadow: 0 5px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  top: 0;
+  z-index: 10;  
+  justify-content: space-between;
+}
+
+.fixed-nav .logo {
+  display: block;
+  font-size: 2em;
+}
+
 @keyframes updown {
   0% {
     transform: translateY(-100%);
